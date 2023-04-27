@@ -10,6 +10,6 @@ import org.springframework.stereotype.Component;
  * *
  */
 @Component
-@Profile("foo_profile")
+//@Profile("foo_profile")  // uncomment to test that this profile appears in completion inside application.*
 public class AAA {
 }
